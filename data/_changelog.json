@@ -1879,5 +1879,14 @@
 		"from_rank": null,
 		"above": "the_enchanting",
 		"below": "memosepia"
+	},
+	{
+		"date": 1786664202,
+		"action": "placed",
+		"name": "shadows",
+		"to_rank": 390,
+		"from_rank": null,
+		"above": "blast_furnace",
+		"below": "let_em_go_crazy"
 	}
 ]

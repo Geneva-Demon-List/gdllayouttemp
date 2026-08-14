@@ -1906,5 +1906,14 @@
 		"from_rank": null,
 		"above": "gregregation",
 		"below": "sn0wsucksatgd"
+	},
+	{
+		"date": 1786666336,
+		"action": "placed",
+		"name": "roshidere",
+		"to_rank": 33,
+		"from_rank": null,
+		"above": "akareta",
+		"below": "ai"
 	}
 ]

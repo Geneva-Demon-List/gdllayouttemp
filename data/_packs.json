@@ -1,5 +1,14 @@
 [
 	{
+		"name": "Quac Pack",
+		"difficulty": 4,
+		"levels": [
+			"Quacland",
+			"quac_machine",
+			"superquackmeworld"
+		]
+	},
+	{
 		"name": "RobTop LLCC Pack",
 		"difficulty": 4,
 		"levels": [

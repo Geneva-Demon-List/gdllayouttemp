@@ -203,7 +203,6 @@ export default {
         lastSubmission() {
             this.shouldRefreshLastSubmitted;
             const lastSubmissionLink = localStorage.getItem("last_submission_link")
-            console.log(lastSubmissionLink)
             return lastSubmissionLink
         }
     },

@@ -298,6 +298,14 @@
 			"hz": 60,
 			"enjoyment": 3,
 			"mobile": true
+		},
+		{
+			"user": "nikkye",
+			"link": "https://youtu.be/3-dqyy1vYbM?si=D-r3n-_KvEHm4Vdt",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 7
 		}
 	]
 }

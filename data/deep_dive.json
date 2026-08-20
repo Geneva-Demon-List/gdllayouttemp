@@ -109,6 +109,13 @@
 			"hz": 480,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "Luvke",
+			"link": "https://youtu.be/7NI19j_eW7o",
+			"percent": 100,
+			"hz": 520,
+			"enjoyment": 1
 		}
 	]
 }

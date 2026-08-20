@@ -457,6 +457,14 @@
 			"hz": 100,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "thorvlad",
+			"link": "https://www.youtube.com/watch?v=Riss7orEaew",
+			"percent": 100,
+			"hz": 480,
+			"mobile": false,
+			"enjoyment": 7
 		}
 	]
 }

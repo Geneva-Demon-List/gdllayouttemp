@@ -226,6 +226,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "Korvenn",
+			"link": "https://www.youtube.com/watch?v=mfSYfFsfZCk",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }

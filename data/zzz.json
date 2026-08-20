@@ -997,6 +997,13 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "Topogd6",
+			"link": "https://www.youtube.com/shorts/VY1pMOkqztg",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 5
 		}
 	]
 }

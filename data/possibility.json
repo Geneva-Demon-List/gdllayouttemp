@@ -508,6 +508,13 @@
 			"hz": 100,
 			"mobile": false,
 			"enjoyment": 9
+		},
+		{
+			"user": "Luvke",
+			"link": "https://www.youtube.com/watch?v=IMnzp9t9mLk",
+			"percent": 100,
+			"hz": 520,
+			"enjoyment": 9
 		}
 	]
 }

@@ -108,6 +108,13 @@
 			"percent": 100,
 			"hz": 100,
 			"enjoyment": 6
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://www.youtube.com/watch?v=TYwC7QKjIZ4",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

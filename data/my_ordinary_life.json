@@ -501,6 +501,13 @@
 			"hz": 100,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "Korvenn",
+			"link": "https://youtu.be/zJpZplnHlt0",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }

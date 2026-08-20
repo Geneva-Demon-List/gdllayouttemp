@@ -1915,6 +1915,13 @@
 			"hz": 60,
 			"enjoyment": 10,
 			"mobile": true
+		},
+		{
+			"user": "Rqinn",
+			"link": "https://www.youtube.com/watch?v=magbgSe0EGY",
+			"percent": 100,
+			"hz": 480,
+			"enjoyment": 8
 		}
 	]
 }

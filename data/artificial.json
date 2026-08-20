@@ -1646,6 +1646,13 @@
 			"percent": 100,
 			"hz": 480,
 			"enjoyment": 7
+		},
+		{
+			"user": "Beauloni2",
+			"link": "https://www.youtube.com/watch?v=YdLFLSw88mg&feature=youtu.be",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }

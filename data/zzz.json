@@ -990,6 +990,13 @@
 			"hz": 60,
 			"enjoyment": 8,
 			"mobile": true
+		},
+		{
+			"user": "skyquaky",
+			"link": "https://youtu.be/Lll0OHQedcQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		}
 	]
 }

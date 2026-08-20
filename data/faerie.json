@@ -277,6 +277,13 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 0
+		},
+		{
+			"user": "skyquaky",
+			"link": "https://youtu.be/Lll0OHQedcQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		}
 	]
 }

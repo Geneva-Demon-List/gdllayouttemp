@@ -72,6 +72,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "palkis",
+			"link": "https://www.youtube.com/watch?v=XcSko36uoFU",
+			"percent": 100,
+			"hz": 180,
+			"enjoyment": 10
 		}
 	]
 }

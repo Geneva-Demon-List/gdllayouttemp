@@ -1209,6 +1209,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "Patr1ck234",
+			"link": "https://www.youtube.com/watch?v=QENaGNEKI1c",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
 		}
 	]
 }

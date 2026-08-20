@@ -175,6 +175,13 @@
 			"percent": 100,
 			"hz": 144,
 			"enjoyment": 8
+		},
+		{
+			"user": "Luvke",
+			"link": "https://www.youtube.com/watch?v=6C9XeaNpZzo",
+			"percent": 100,
+			"hz": 520,
+			"enjoyment": 6
 		}
 	]
 }

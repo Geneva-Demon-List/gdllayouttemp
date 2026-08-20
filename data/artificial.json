@@ -1639,6 +1639,13 @@
 			"percent": 100,
 			"hz": 300,
 			"enjoyment": 8
+		},
+		{
+			"user": "Rqinn",
+			"link": "https://www.youtube.com/watch?v=H2AoR3nxpSc",
+			"percent": 100,
+			"hz": 480,
+			"enjoyment": 7
 		}
 	]
 }

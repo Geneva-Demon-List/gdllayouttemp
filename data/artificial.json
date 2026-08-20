@@ -1632,6 +1632,13 @@
 			"hz": 60,
 			"enjoyment": 10,
 			"mobile": true
+		},
+		{
+			"user": "yellow switches",
+			"link": "https://youtu.be/eg1eZ94EjWU",
+			"percent": 100,
+			"hz": 300,
+			"enjoyment": 8
 		}
 	]
 }

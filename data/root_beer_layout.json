@@ -1201,6 +1201,14 @@
 			"hz": 60,
 			"enjoyment": 9,
 			"mobile": true
+		},
+		{
+			"user": "lingonax",
+			"link": "https://www.youtube.com/watch?v=5ywmyHehVXw",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
 		}
 	]
 }

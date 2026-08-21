@@ -1933,5 +1933,14 @@
 		"from_rank": null,
 		"above": "gregregation",
 		"below": "quac_machine"
+	},
+	{
+		"date": 1787288843,
+		"action": "placed",
+		"name": "everything_will_freeze",
+		"to_rank": 100,
+		"from_rank": null,
+		"above": "death_to_ye_three",
+		"below": "rubber"
 	}
 ]

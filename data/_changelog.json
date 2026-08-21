@@ -1915,5 +1915,14 @@
 		"from_rank": null,
 		"above": "akareta",
 		"below": "ai"
+	},
+	{
+		"date": 1787287738,
+		"action": "placed",
+		"name": "silent_booty_fade",
+		"to_rank": 107,
+		"from_rank": null,
+		"above": "inferior_fabrication",
+		"below": "doller_menu"
 	}
 ]

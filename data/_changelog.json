@@ -1924,5 +1924,14 @@
 		"from_rank": null,
 		"above": "inferior_fabrication",
 		"below": "doller_menu"
+	},
+	{
+		"date": 1787288534,
+		"action": "placed",
+		"name": "never_make_it",
+		"to_rank": 300,
+		"from_rank": null,
+		"above": "gregregation",
+		"below": "quac_machine"
 	}
 ]

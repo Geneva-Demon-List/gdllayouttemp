@@ -1,7 +1,9 @@
 {
 	"id": 145832688,
 	"name": "Everything Will Freeze",
-	"creators": ["Lev_Nix"],
+	"creators": [
+		"zN1x"
+	],
 	"verifier": "gam",
 	"verification": "https://www.youtube.com/watch?v=zk24bUz7BCs",
 	"percentToQualify": 100,

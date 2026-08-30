@@ -18,11 +18,11 @@ export default {
                 <form class="options">
                     <div class="check">
                         <input type="checkbox" id="upper" value="Upper List" v-model="useUpperList">
-                        <label for="upper">Upper Top List ( Top 1-40 )</label>
+                        <label for="upper">Upper Main List ( Top 1-40 )</label>
                     </div>
                     <div class="check">
                         <input type="checkbox" id="main" value="Main List" v-model="useMainList">
-                        <label for="main">Top List ( Top 41-75 )</label>
+                        <label for="main">Lower Main List ( Top 41-75 )</label>
                     </div>
                     <div class="check">
                         <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">

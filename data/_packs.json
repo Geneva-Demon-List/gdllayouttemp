@@ -43,5 +43,13 @@
 			"invisclubstep",
 			"livingopen"
 		]
+	},
+	{
+		"name": "Challenge List Survivors",
+		"difficulty": 2,
+		"levels": [
+			"gdlhouse",
+			"inspamity2"
+		]
 	}
 ]

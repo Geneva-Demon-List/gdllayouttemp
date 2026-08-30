@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=1024" />
-        <meta property="og:title" content="The Layout List" />
+        <meta property="og:title" content="Glorpulon Demon List" />
         <meta property="og:description" content="A list of community-submitted layouts ranked by difficulty and tier" />
         <meta property="og:image" content="/assets/laylist.png" />
         <title>The Layout List</title>
@@ -44,7 +44,7 @@
                     <span class="type-label-lg">List</span>
                 </router-link>
                 <router-link class="nav__tab" to="/leaderboard">
-                    <span class="type-label-lg">Leaderboard</span>
+                    <span class="type-label-lg">Stats Viewer</span>
                 </router-link>
                 <router-link class="nav__tab" to="/roulette">
                     <span class="type-label-lg">Roulette</span>
@@ -60,12 +60,12 @@
                         <img :src="store.dark ? '/assets/palette-dark.svg' : '/assets/palette.svg'"/>
                         <input type="color" class="nav__icon" v-model="selectedColor" v-if="store">
                     </div>
-                    <a class="nav__icon" href="https://discord.gg/K48VRsHsPE" target="_blank">
+                    <a class="nav__icon" href="https://discord.gg/EkeyBFCq3J" target="_blank">
                         <img :src="!store.dark ? '/assets/discord-dark.svg' : '/assets/discord.svg'" />
                     </a>
                     <a
                         class="nav__cta type-label-lg"
-                        href="https://forms.gle/kmesxiUQUEWC5ZuW9"
+                        href="https://discord.gg/EkeyBFCq3J"
                         target="_blank"
                         >Submit Record</a
                     >

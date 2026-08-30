@@ -10,7 +10,7 @@
 	},
 	{
 		"name": "Nine Circles Pack I",
-		"difficulty": 2,
+		"difficulty": 3,
 		"levels": [
 			"ninecircles",
 			"jawbreaker",
@@ -18,13 +18,22 @@
 		]
 	},
 	{
-		"name": "Nine Circles Pack II",
+		"name": "Top 1 Pack I",
+		"difficulty": 5,
+		"levels": [
+			"cataclysm",
+			"bloodbath"
+		]
+	},
+	{
+		"name": "Free Demon Pack I",
 		"difficulty": 1,
 		"levels": [
-			"retrocircles",
-			"problematic",
-			"butterflyeffect",
-			"blastcircles"
+			"thenightmare",
+			"lightningroad",
+			"plat_adv",
+			"phjork",
+			"shiver"
 		]
 	}
 ]

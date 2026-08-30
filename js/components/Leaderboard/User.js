@@ -37,7 +37,7 @@ export default {
                 <div class="pack-container" v-if="entry.userPacks.length > 0">
                     <a v-for="pack in entry.userPacks" class="pack" :style="{ 'background': rgbaBind(packColor(pack.difficulty), 0.2) }" :href="'https://glorupulon.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }}</a>
                 </div>
-                <h4>Hardest: <strong>{{entry.completed[0]}}</strong></h4>
+                <h4 v-if="entry.completed">Hardest: <strong>#{{entry.completed[0].rank}}: {{entry.completed[0].level}}</strong> (+{{entry.completed[0].score}})</h4>
                 <Section label="Created" :scores="entry.created" />
                 <Section label="Verified" :scores="entry.verified" />
                 <Section label="Completed" :scores="entry.completed" />

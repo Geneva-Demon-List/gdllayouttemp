@@ -1,0 +1,24 @@
+{
+    "id": 4957691,
+    "name": "Windy Landscape",
+    "author": "WIIGU1411",
+    "creators": [],
+    "verifier": "wRocket",
+    "verification": "https://youtu.be/qWVR4-8smDU?si=6326hpK1yVHj3d-y",
+    "percentToQualify": "60",
+    "difficulty": "Insane Demon",
+    "records": [
+        {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/ohy6O5AP5NM",
+            "percent": 100,
+            "hz": 480
+        },
+        {
+            "user": "EarthMoth",
+            "link": "https://www.youtube.com/watch?v=haea9neYcA0",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}

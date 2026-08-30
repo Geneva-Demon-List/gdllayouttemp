@@ -56,97 +56,38 @@ export function score(rank, difficulty, percent, minPercent, list) {
     const tierMin = fetchTierMinimum(list, difficulty);
     const rankInTier = rank - tierMin + tierLength;
     
-    if (difficulty < diffDivider) { // Checks if the difficulty tier is mythical and below
-        // LINEAR FUNCTION CONFIGURATION
-        // You can change the minimum and maximum point values given for each tier here.
+    //Imported from the old repo
+    if (rank > 150 && percent < 100) {
+        return 0;
+    }
 
-        // A switch statement basically just tests a bunch of values against the value of
-        // the case (in this case, the value of difficulty). Read the comments in the
-        // function below for more clarification.
-        switch (difficulty) { // Set the values of minScore and maxScore based on the difficulty.
-            case 0: // If the value of difficulty is 0, do the following:
+    // Old formula
+    /*
+    let score = (100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50) *
+        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
+    */
+    // New formula
+    score = (1000 / ((rank + 7.1) / 8.1));
 
-                /* Beginner Tier */
-                minScore = 3;
-                maxScore = 7;
-                break; // Leave the switch statement without checking any other cases.
-            case 1: // If the value of difficulty is 1, do the following:
-
-                /* Easy Tier */
-                minScore = 7.1;
-                maxScore = 13;
-                break;
-            case 2: // etc.
-
-                /* Medium Tier */
-                minScore = 13.1;
-                maxScore = 37;
-                break;
-            case 3:
-
-                /* Hard Tier */
-                minScore = 37.1;
-                maxScore = 63;
-                break;
-            case 4:
-
-                /* Insane Tier */
-                minScore = 63.1;
-                maxScore = 87;
-                break;
-            case 5:
-
-                /* Mythical Tier */
-                minScore = 87.1;
-                maxScore = scoreDivider;
-                break;
-            default: // If none of the other cases are met, resort to this:
-
-                /* If there's a mistake */
-                break;
-        }
-
-        // Calculates the linear score
-        let decreaseAmount = (maxScore - minScore) / (tierLength - 1);
-        score = maxScore - decreaseAmount * (rankInTier - 1);
-        if (tierLength === 1) {     
-            score = maxScore;
-        }
-    } // End of linear portion
-    
-    else { // Executes this code if the previous condition wasn't true (in other words, if
-           // the difficulty tier is extreme or above).
-        
-        let expLength = fetchTierMinimum(list, diffDivider); // Gets the number of levels
-        // from the tier above diffDivider to the #1 ranked level.
-        
-        const scaleFactor = Math.log(minExpScore / maxExpScore); // Gets the scale factor
-        // for the exponential function.
-        
-        // Calculates the exponential score
-        let expScore = maxExpScore * Math.exp(scaleFactor * Math.pow((rank - 1) / (expLength - 1), curveBuff));
-        
-        // Rounds up the value of expScore to minExpScore if it's below the value of
-        // minExpScore, and rounds down the value of expScore to maxExpScore if it's above
-        // the value of maxExpScore.
-        score = Math.max(minExpScore, Math.min(expScore, maxExpScore)); 
-    } // End of exponential portion
-    
-    // Set minPercent to 100 if the difficulty tier is hard tier or below
-    if (difficulty < 4) {
-        minPercent = 100;
+    if (percent < 100) {
+        score = (((round(score) / 4) * ((percent - minPercent) / (99 - minPercent) * 1 + 1))*minPercent)/minPercent
     }
     
-    // Multuplies the value of score by the factor of the difference between the value of
-    // percent and minPercent - 1, divided by the difference between 100 and the value of
-    // minPercent - 1 (note that if you c)
-    score *=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-
-    // Rounds the value of score to the nearest nth decimal, where n is the value of scale,
-    // and makes it 0 if the score is negative.
-    score = Math.max(round(score), 0);
-
-    return score;
+    score = Math.max(0, score);
+   
+    if (rank > 150) {
+        score = score * 0.2
+    } else if (rank > 75) {
+        score = score * 0.3
+    } else if (rank > 40) {
+        score = score * 0.6
+    }
+    
+    if (percent < minPercent) {
+        return 0;
+    }
+    
+    return Math.max(round(score), 0);
 }
 
 // ------------------------
@@ -174,52 +115,8 @@ export function packScore(pack) {
         // For help figuring out how this switch statement works, look at the comments on
         // the switch statement in the score function above.
         switch (pack.difficulty) { // Set the pack's score based on its difficulty.
-            case 0:
-
-                /* Beginner Packs */
-                packscore = 5;
-                break;
-            case 1:
-
-                /* Easy Packs */
-                packscore = 15;
-                break;
-            case 2:
-
-                /* Medium Packs */
-                packscore = 30;
-                break;
-            case 3:
-
-                /* Hard Packs */
-                packscore = 50;
-                break;
-            case 4:
-
-                /* Insane Packs */
-                packscore = 70;
-                break;
-            case 5:
-
-                /* Mythical Packs */
-                packscore = 100;
-                break;
-            case 6:
-
-                /* Extreme Packs */
-                packscore = 150;
-                break;
-            case 7:
-
-                /* Legendary Packs */
-                packscore = 200;
-                break;
-            default:
-
-                /* if the pack's difficulty does not correspond to a "case" above */
-                packscore = null;
-                break;
-        }
+          packscore = 0;
+          break;
  // } Ignore this bracket, it is part of the commented out code above.
 
     // if the packscore is not "null" (i.e. if the difficulty is not in 

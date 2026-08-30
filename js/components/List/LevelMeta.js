@@ -19,7 +19,7 @@ export default {
                 <div class="type-title-sm">Points</div>
                 <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
             </li>
-            <li>
+            <li v-if="selectedLevel.percentToQualify < 100 && getOriginalRank(selectedLevel) <= 150">
                 <div class="type-title-sm">Points When Getting {{level.percentToQualify}}%</div>
                 <p>{{ score(level.rank, level.difficulty, level.percentToQualify, level.percentToQualify, list) }}</p>
             </li>

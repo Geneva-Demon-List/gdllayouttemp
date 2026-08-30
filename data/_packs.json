@@ -61,5 +61,16 @@
 			"butterflyeffect",
 			"zxcircles"
 		]
+	},
+	{
+		"name": "Old Demons Pack I",
+		"difficulty": 1,
+		"levels": [
+			"thenightmare",
+			"lightningroad",
+			"bpnight",
+			"crescendo",
+			"demonpark"
+		]
 	}
 ]

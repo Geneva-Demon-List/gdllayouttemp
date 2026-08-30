@@ -9,7 +9,7 @@ export default {
                 You must have achieved the record on the level that is listed on the site or on an approved bugfixed copy - please check the level ID before you submit a record!
             </p>
             <p>
-                Records for Hard Demon+ layouts must have audible clicks for the entire completion attempt. This does not include mods that add artificial click sounds.
+                Records for Hard Demon+ levels must have audible clicks for the entire completion attempt. This does not include mods that add artificial click sounds.
             </p>
             <p>
                 Complete raw footage is required alongside your record for any levels at Sonic Wave difficulty or above.

@@ -51,5 +51,15 @@
 			"gdlhouse",
 			"inspamity2"
 		]
+	},
+	{
+		"name": "Nine Circles Pack II",
+		"difficulty": 1,
+		"levels": [
+			"retrocircles",
+			"problematic",
+			"butterflyeffect",
+			"blastcircles"
+		]
 	}
 ]

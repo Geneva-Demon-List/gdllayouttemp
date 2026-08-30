@@ -1,0 +1,18 @@
+{
+    "id": "145932383",
+    "name": "GDLHouse",
+    "author": "wRocket",
+    "creators": ["EarthMoth", "MrGilFellow"],
+    "verifier": "wRocket",
+    "verification": "https://youtu.be/lGv5zF0wz2M",
+    "percentToQualify": "100",
+    "difficulty": "Unrated",
+    "records": [
+        {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/ReKbR0o6Xw0",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

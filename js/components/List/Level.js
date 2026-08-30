@@ -40,7 +40,7 @@ export default {
             <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment"></LevelAuthors>
             <Verification :verification="level.verification" :showcase="level.showcase || null" />
             <LevelMeta :level="level" :list="list" />
-            <Records :records="level.records" :percentToQualify="(level.percentToQualify) ? level.percentToQualify : 100" :rank="(level.rank)"/>
+            <Records :records="level.records" :percentToQualify="(level.percentToQualify) ? level.percentToQualify : 100" :rank="level.rank"/>
         </div>
     `,
     methods: {

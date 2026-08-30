@@ -35,5 +35,13 @@
 			"phjork",
 			"shiver"
 		]
+	},
+	{
+		"name": "Basically a Rebeat",
+		"difficulty": 2,
+		"levels": [
+			"invisclubstep",
+			"livingopen"
+		]
 	}
 ]

@@ -1,0 +1,24 @@
+{
+    "id": 134668138,
+    "name": "KOCMOC UNLEASHED (nerfed)",
+    "author": "EarthMoth",
+    "creators": [],
+    "verifier": "EarthMoth",
+    "verification": "https://youtu.be/ky_im-ns78E",
+    "percentToQualify": "70",
+    "difficulty": "Unrated Easy Demon",
+    "records": [
+        {
+            "user": "wRocket",
+            "link": "https://youtu.be/Z83tnC987Gw",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/fnWtfvg4qX4",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

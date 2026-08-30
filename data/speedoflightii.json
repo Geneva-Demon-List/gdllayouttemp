@@ -1,0 +1,18 @@
+{
+    "id": 7016598,
+    "name": "Speed of Light II",
+    "author": "TheRealSalad",
+    "creators": [],
+    "verifier": "MrGilFellow",
+    "verification": "https://youtu.be/wlxTPzewY7A",
+    "percentToQualify": "62",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "wRocket",
+            "link": "https://youtu.be/lIcS1KbuUSk",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

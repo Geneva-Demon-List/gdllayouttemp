@@ -1,0 +1,18 @@
+{
+    "id": 9608518,
+    "name": "Butterfly Effect",
+    "author": "Linco",
+    "creators": [],
+    "verifier": "wRocket",
+    "verification": "https://youtu.be/dE1wlwd6DG4",
+    "percentToQualify": "62",
+    "difficulty": "Easy Demon",
+    "records": [
+        {
+            "user": "MrGilFellow",
+            "link": "https://www.youtube.com/watch?v=L9UpFvbQLUs",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": 7116121,
+    "name": "Problematic",
+    "author": "Dhafin",
+    "creators": [],
+    "verifier": "wRocket",
+    "verification": "https://youtu.be/8m9dqVUPLAE",
+    "percentToQualify": "62",
+    "difficulty": "Easy Demon",
+    "records": [
+        {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/GsJdH3FFYOE",
+            "percent": 100,
+            "hz": 480
+        },
+        {
+            "user": "EarthMoth",
+            "link": "https://www.youtube.com/watch?v=TQEpme6_m_k",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

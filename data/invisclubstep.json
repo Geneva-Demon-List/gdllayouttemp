@@ -1,0 +1,24 @@
+{
+    "id": 1347537,
+    "name": "Invisible Clubstep",
+    "author": "J4cKy",
+    "creators": [],
+    "verifier": "wRocket",
+    "verification": "https://www.youtube.com/watch?v=HQPd9w6sAYE",
+    "percentToQualify": "64",
+    "difficulty": "Easy Demon",
+    "records": [
+        {
+            "user": "Kyro",
+            "link": "https://youtu.be/ueyJU-6_CKw",
+            "percent": 100,
+            "hz": 999
+        },
+        {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/GHalM1_NyGY",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}

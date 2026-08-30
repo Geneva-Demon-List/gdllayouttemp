@@ -1,0 +1,36 @@
+{
+    "id": 77238488,
+    "name": "Clubstep",
+    "author": "RobTop",
+    "creators": [],
+    "verifier": "wRocket",
+    "verification": "https://www.youtube.com/watch?v=NZQGfMDIT7w",
+    "percentToQualify": "62",
+    "difficulty": "Easy Demon",
+    "records": [
+        {
+            "user": "Kyro",
+            "link": "https://youtu.be/RmZE6OLoF20",
+            "percent": 100,
+            "hz": 999
+        },
+        {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/BD_hn4hITA4",
+            "percent": 100,
+            "hz": 480
+        },
+        {
+            "user": "Chomp",
+            "link": "https://www.youtube.com/watch?v=w6M1XfLr3Uc",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "EarthMoth",
+            "link": "https://youtu.be/mrbGBpNB85k",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

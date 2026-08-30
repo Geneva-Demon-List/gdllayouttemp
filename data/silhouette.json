@@ -1,0 +1,18 @@
+{
+    "id": 7018102,
+    "name": "Silhouette",
+    "author": "Havoc",
+    "creators": [],
+    "verifier": "EarthMoth",
+    "verification": "https://youtu.be/kMN65ohpFCY",
+    "percentToQualify": "54",
+    "difficulty": "Hard Demon",
+    "records": [
+        {
+            "user": "wRocket",
+            "link": "https://youtu.be/fl9Ezisur2Y",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

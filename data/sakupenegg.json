@@ -1,0 +1,19 @@
+
+{
+    "id": 58002670,
+    "name": "Sakupen Egg",
+    "author": "Sivlol",
+    "creators": [],
+    "verifier": "wRocket",
+    "verification": "https://www.youtube.com/watch?v=acjhq7on1LU",
+    "percentToQualify": "61",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "EarthMoth",
+            "link": "https://www.youtube.com/watch?v=uin46EdkwrM",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}

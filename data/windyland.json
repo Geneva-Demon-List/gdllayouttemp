@@ -9,16 +9,11 @@
     "difficulty": "Insane Demon",
     "records": [
         {
-            "user": "MrGilFellow",
-            "link": "https://youtu.be/ohy6O5AP5NM",
-            "percent": 100,
-            "hz": 480
-        },
-        {
             "user": "EarthMoth",
             "link": "https://www.youtube.com/watch?v=haea9neYcA0",
             "percent": 100,
             "hz": 360
+            "enjoyment": 7
         }
     ]
 }

@@ -20,7 +20,7 @@ export default {
                 <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
             </li>
             <li>
-                <div class="type-title-sm">Points When Getting {{level.percentToQualify}}</div>
+                <div class="type-title-sm">Points When Getting {{level.percentToQualify}}%</div>
                 <p>{{ score(level.rank, level.difficulty, level.percentToQualify, level.percentToQualify, list) }}</p>
             </li>
             <li>

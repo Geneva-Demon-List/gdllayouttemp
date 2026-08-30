@@ -114,9 +114,8 @@ export function packScore(pack) {
 
         // For help figuring out how this switch statement works, look at the comments on
         // the switch statement in the score function above.
-        switch (pack.difficulty) { // Set the pack's score based on its difficulty.
-          packscore = 0;
-          break;
+     packscore = 0;
+     break;
  // } Ignore this bracket, it is part of the commented out code above.
 
     // if the packscore is not "null" (i.e. if the difficulty is not in 

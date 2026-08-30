@@ -1,42 +1,12 @@
 [
     {
         "role": "owner",
-        "name": "evil",
-        "link": "https://www.youtube.com/@EvilEmperium"
+        "name": "wRocket",
+        "link": "https://www.youtube.com/@w.rocket"
     },
     {
         "role": "owner",
-        "name": "Hydraniac",
-        "link": "https://www.youtube.com/@Hydraniac"
-    },
-    {
-        "role": "owner",
-        "name": "sphericle",
-        "link": "https://youtube.com/@zsphericle"
-    },
-    {
-        "role": "helper",
-        "name": "Infinera",
-        "link": "https://www.youtube.com/@infi9626"
-    },
-    {
-        "role": "helper",
-        "name": "gam",
-        "link": "https://www.youtube.com/@gamree94"
-    },
-    {
-        "role": "helper",
-        "name": "sn0wiscold",
-        "link": "https://www.youtube.com/@sn0wiscold"
-    },
-    {
-        "role": "helper",
-        "name": "tangi",
-        "link": "https://www.youtube.com/@Tangiiness"
-    },
-    {
-        "role": "dev",
-        "name": "sphericle",
-        "link": "https://github.com/sphericle"
+        "name": "EarthMoth",
+        "link": "https://www.youtube.com/@earthgd"
     }
 ]

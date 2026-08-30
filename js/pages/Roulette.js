@@ -208,7 +208,7 @@ export default {
                 list.push(...fullListMapped.slice(0, 40));
             }
             if (this.useMainList) {
-                list.push(...fullListMapped.slice(40. 75));
+                list.push(...fullListMapped.slice(40, 75));
             }
             if (this.useExtendedList) {
                 list.push(...fullListMapped.slice(75, 150));

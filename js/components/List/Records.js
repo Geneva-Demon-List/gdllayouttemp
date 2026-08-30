@@ -11,7 +11,7 @@ export default {
     },
     template: `
         <h2>Records ({{ records.length }})</h2>
-        <p v-if="selectedLevel.percentToQualify < 100 && getOriginalRank(selectedLevel) <= 150"><strong>{{ percentToQualify }}%</strong> or better to qualify</p>
+        <p v-if="percentToQualify < 100 && rank <= 150"><strong>{{ percentToQualify }}%</strong> or better to qualify</p>
         <p v-else><strong>100</strong>% or better to qualify</p>
         <table class="records">
             <tr v-for="record in records" class="record">

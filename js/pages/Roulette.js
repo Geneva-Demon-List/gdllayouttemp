@@ -1,8 +1,8 @@
-import { store } from '../main.js';
+import { fetchList } from '../content.js';
 import { getThumbnailFromId, getYoutubeIdFromUrl, shuffle } from '../util.js';
+
 import Spinner from '../components/Spinner.js';
 import Btn from '../components/Btn.js';
-
 
 export default {
     components: { Spinner, Btn },
@@ -13,16 +13,24 @@ export default {
         <main v-else class="page-roulette">
             <div class="sidebar">
                 <p class="type-label-md" style="color: #aaa">
-                    Shameless copy of the <a class="director" href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">Extreme Demon Roulette by matcool</a>.
+                    Shameless copy of the Extreme Demon Roulette by <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
                 </p>
                 <form class="options">
                     <div class="check">
+                        <input type="checkbox" id="upper" value="Upper List" v-model="useUpperList">
+                        <label for="upper">Upper Top List ( Top 1-40 )</label>
+                    </div>
+                    <div class="check">
                         <input type="checkbox" id="main" value="Main List" v-model="useMainList">
-                        <label for="main">Top 100 levels</label>
+                        <label for="main">Top List ( Top 41-75 )</label>
                     </div>
                     <div class="check">
                         <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">
-                        <label for="extended">Levels below top 100</label>
+                        <label for="extended">Extended List ( Top 76-150 )</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="unbounded" value="Unbounded List" v-model="useUnboundedList">
+                        <label for="unbounded">Unbounded List ( Top 151+ )</label>
                     </div>
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Start' : 'Restart'}}</Btn>
                 </form>
@@ -46,23 +54,9 @@ export default {
                                 <img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.video))" alt="">
                             </a>
                             <div class="meta">
-                                <div>
-                                    <div class="rank-container">
-                                        <p>#{{ level.rank }}</p>
-                                    </div>
-                                    <div class="nong-container">
-                                         <p v-if="level.songlink !== null">Nong: <a class="director" :href="level.songlink" target="_blank">{{ level.songname }}</a></p>
-                                     </div>
-                                </div>
-                                <h2><a class="director" :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
-                                <div>
-                                    <div style="display: inline-block; width: 50%;">
-                                        <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
-                                    </div>
-                                    <div style="display: inline-block; width: 50%; text-align: right;">
-                                        <p style="color: #00b54b; font-weight: 700">{{ progression[i] }}%</p>
-                                    </div>
-                                </div>
+                                <p>#{{ level.rank }}</p>
+                                <h2>{{ level.name }}</h2>
+                                <p style="color: #00b54b; font-weight: 700">{{ progression[i] }}%</p>
                             </div>
                         </div>
                         <!-- Current Level -->
@@ -71,23 +65,9 @@ export default {
                                 <img :src="getThumbnailFromId(getYoutubeIdFromUrl(currentLevel.video))" alt="">
                             </a>
                             <div class="meta">
-                                <div>
-                                    <div class="rank-container">
-                                        <p>#{{ currentLevel.rank }}</p>
-                                    </div>
-                                    <div class="nong-container">
-                                        <p v-if="currentLevel.songlink !== null">Nong: <a class="director" :href="currentLevel.songlink" target="_blank">{{ currentLevel.songname }}</a></p>
-                                    </div>
-                                </div>
-                                <h2><a class="director" :href="'https://laylist.pages.dev/#/level/' + currentLevel.path" target="_blank">{{ currentLevel.name }}</a></h2>
-                                <div>
-                                    <div style="display: inline-block; width: 50%;">
-                                        <p class="director" style="cursor: pointer" @click="copyURL(currentLevel.id)">{{ currentLevel.id }}</p>
-                                    </div>
-                                    <div style="display: inline-block; width: 50%; text-align: right;">
-                                        <p style=" font-weight: 700">{{ currentPercentage + 1 }}%</p>
-                                    </div>
-                                </div>
+                                <p>#{{ currentLevel.rank }}</p>
+                                <h2>{{ currentLevel.name }}</h2>
+                                <p>{{ currentLevel.id }}</p>
                             </div>
                             <form class="actions" v-if="!givenUp">
                                 <input type="number" v-model="percentage" :placeholder="placeholder" :min="currentPercentage + 1" max=100>
@@ -109,23 +89,9 @@ export default {
                                     <img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.video))" alt="">
                                 </a>
                                 <div class="meta">
-                                    <div>
-                                        <div class="rank-container">
-                                            <p>#{{ level.rank }}</p>
-                                        </div>
-                                        <div class="nong-container">
-                                            <p v-if="level.songlink !== null">Nong: <a class="director" :href="level.songlink" target="_blank">{{ level.songname }}</a></p>
-                                        </div> 
-                                    </div>
-                                    <h2><a class="director" :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
-                                    <div>
-                                        <div style="display: inline-block; width: 50%;">
-                                            <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
-                                        </div>
-                                        <div style="display: inline-block; width: 50%; text-align: right;">
-                                            <p style="color: #d50000; font-weight: 700">{{ currentPercentage + 2 + i }}%</p>
-                                        </div>
-                                    </div>
+                                    <p>#{{ level.rank }}</p>
+                                    <h2>{{ level.name }}</h2>
+                                    <p style="color: #d50000; font-weight: 700">{{ currentPercentage + 2 + i }}%</p>
                                 </div>
                             </div>
                         </template>
@@ -141,22 +107,61 @@ export default {
             </div>
         </main>
     `,
-
     data: () => ({
         loading: false,
         levels: [],
-        progression: [],
-        toasts: [],
-        fileInput: undefined,
-        useMainList: true,
-        useExtendedList: true,
+        progression: [], // list of percentages completed
         percentage: undefined,
         givenUp: false,
         showRemaining: false,
-        store,
-        nongClicked: false,
+        useUpperList: true,
+        useMainList: true,
+        useExtendedList: true,
+        toasts: [],
+        fileInput: undefined,
     }),
+    mounted() {
+        // Create File Input
+        this.fileInput = document.createElement('input');
+        this.fileInput.type = 'file';
+        this.fileInput.multiple = false;
+        this.fileInput.accept = '.json';
+        this.fileInput.addEventListener('change', this.onImportUpload);
 
+        // Load progress from local storage
+        const roulette = JSON.parse(localStorage.getItem('roulette'));
+
+        if (!roulette) {
+            return;
+        }
+
+        this.levels = roulette.levels;
+        this.progression = roulette.progression;
+    },
+    computed: {
+        currentLevel() {
+            return this.levels[this.progression.length];
+        },
+        currentPercentage() {
+            return this.progression[this.progression.length - 1] || 0;
+        },
+        placeholder() {
+            return `At least ${this.currentPercentage + 1}%`;
+        },
+        hasCompleted() {
+            return (
+                this.progression[this.progression.length - 1] >= 100 ||
+                this.progression.length === this.levels.length
+            );
+        },
+        isActive() {
+            return (
+                this.progression.length > 0 &&
+                !this.givenUp &&
+                !this.hasCompleted
+            );
+        },
+    },
     methods: {
         shuffle,
         getThumbnailFromId,
@@ -167,42 +172,41 @@ export default {
                 return;
             }
 
-            if (!this.useMainList && !this.useExtendedList) {
+            if (!this.useMainList && !this.useExtendedList && !this.useUpperList && !this.useUnboundedList) {
                 return;
             }
 
             this.loading = true;
 
-            const fullList = (this.store.list).filter(([_, pos, __]) => pos !== null);
+            const fullList = await fetchList();
 
-
-            if (fullList.filter(([err, _]) => err).length > 0) {
+            if (fullList.filter(([_, err]) => err).length > 0) {
                 this.loading = false;
                 this.showToast(
-                    'The list is currently broken. Wait until it\'s fixed to start a roulette.',
+                    'List is currently broken. Wait until it\'s fixed to start a roulette.',
                 );
                 return;
             }
 
-            const fullListMapped = fullList.map(([_, __, lvl], i) => ({
+            const fullListMapped = fullList.map(([lvl, _], i) => ({
                 rank: i + 1,
                 id: lvl.id,
                 name: lvl.name,
                 video: lvl.verification,
-                path: lvl.path,
-                songname: lvl.song ? lvl.song : null,
-                songlink: lvl.songLink ? lvl.songLink : null,
             }));
-
             const list = [];
+            if (this.useUpperList) list.push(...fullListMapped.slice(0, 40));
             if (this.useMainList) {
-                list.push(...fullListMapped.slice(0, 100));
+                list.push(...fullListMapped.slice(40, 75));
             }
             if (this.useExtendedList) {
-                list.push(...fullListMapped.slice(100));
+                list.push(...fullListMapped.slice(75, 150));
+            }
+            if (this.useUnboundedList) {
+                list.push(...fullListMapped.slice(150, 99999));
             }
 
-            // Random 100 levels
+            // random 100 levels
             this.levels = shuffle(list).slice(0, 100);
             this.showRemaining = false;
             this.givenUp = false;
@@ -293,7 +297,7 @@ export default {
             );
             const a = document.createElement('a');
             a.href = URL.createObjectURL(file);
-            a.download = 'layoutlist_roulette';
+            a.download = 'tsl_roulette';
             a.click();
             URL.revokeObjectURL(a.href);
         },
@@ -303,59 +307,5 @@ export default {
                 this.toasts.shift();
             }, 3000);
         },
-    },
-
-    computed: {
-        currentLevel() {
-            return this.levels[this.progression.length];
-        },
-        currentPercentage() {
-            return this.progression[this.progression.length - 1] || 0;
-        },
-        placeholder() {
-            return `At least ${this.currentPercentage + 1}%`;
-        },
-        hasCompleted() {
-            return (
-                this.progression[this.progression.length - 1] >= 100 ||
-                this.progression.length === this.levels.length
-            );
-        },
-        isActive() {
-            return (
-                this.progression.length > 0 &&
-                !this.givenUp &&
-                !this.hasCompleted
-            );
-        },
-    },
-
-    mounted() {
-        // Create file input
-        this.fileInput = document.createElement('input');
-        this.fileInput.type = 'file';
-        this.fileInput.multiple = false;
-        this.fileInput.accept = '.json';
-        this.fileInput.addEventListener('change', this.onImportUpload);
-
-        // Load progress from local storage
-        const roulette = JSON.parse(localStorage.getItem('roulette'));
-
-        if (!roulette) {
-            return;
-        }
-
-        this.levels = roulette.levels;
-        this.progression = roulette.progression;
-    },
-
-    watch: {
-        store: {
-            handler(updated) {
-                this.list = updated.list
-                updated.errors.forEach(err => this.errors.push(`Failed to load level. (${err}.json)`))
-            },
-            deep: true
-        }
     },
 };

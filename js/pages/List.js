@@ -67,13 +67,6 @@ export default {
                     <hr class="divider">
                     <Staff />
                     <hr class="divider">
-                    <h3>Tags</h3>
-                    <p class="director" @click="search('⭐')">⭐ Rated</p>
-                    <p class="director" @click="search('✨')">✨ Subject to Exemptions</p>
-                    <p class="director" @click="search('💫')">💫 Accepted Under Old Standards</p>
-                    <p class="director" @click="search('🎖️')">🎖️ Creator Contest Winner</p>
-                    <p class="director" @click="search('❌')">❌ Pending Removal</p>
-                    <hr class="divider">
                     <RecordRules />
                     <hr class="divider">
                     <DifficultyInfo />

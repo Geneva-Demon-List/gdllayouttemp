@@ -35,8 +35,9 @@ export default {
                 </div>
                 <h4>{{ localize(entry.total) + " / " + localize(entry.possibleMax) }}</h4>
                 <div class="pack-container" v-if="entry.userPacks.length > 0">
-                    <a v-for="pack in entry.userPacks" class="pack" :style="{ 'background': rgbaBind(packColor(pack.difficulty), 0.2) }" :href="'https://glorupulon.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }} (+{{ pack.score }})</a>
+                    <a v-for="pack in entry.userPacks" class="pack" :style="{ 'background': rgbaBind(packColor(pack.difficulty), 0.2) }" :href="'https://glorupulon.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }}</a>
                 </div>
+                <h4>Hardest: <strong>{{entry.completed[0]}}</strong></h4>
                 <Section label="Created" :scores="entry.created" />
                 <Section label="Verified" :scores="entry.verified" />
                 <Section label="Completed" :scores="entry.completed" />

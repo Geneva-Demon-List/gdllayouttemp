@@ -11,7 +11,7 @@ import { fetchTierLength, fetchTierMinimum } from "./content.js";
 // to non programmers. Notes are denoted using "//", as seen here.
 // ------------------------------------------------------------------------------------------
 
-export const scale = 1; // Amount of decimals the site will globally round to and display.
+export const scale = 0; // Amount of decimals the site will globally round to and display.
 
 // ------------------------------------------------------------------------------------------
 // Information about imported functions:

@@ -9,10 +9,10 @@ export default {
                 You must have achieved the record on the level that is listed on the site or on an approved bugfixed copy - please check the level ID before you submit a record!
             </p>
             <p>
-                Records for Easy+ layouts must have audible clicks for the entire completion attempt. This does not include mods that add artificial click sounds.
+                Records for Hard Demon+ layouts must have audible clicks for the entire completion attempt. This does not include mods that add artificial click sounds.
             </p>
             <p>
-                Complete raw footage is required alongside your record for any layouts in Extreme Tier or above.
+                Complete raw footage is required alongside your record for any levels at Sonic Wave difficulty or above.
             </p>
             <p>
                 The recording must have a previous attempt and death animation shown before the completion, unless the completion is on the first attempt.

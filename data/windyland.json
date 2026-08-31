@@ -14,6 +14,12 @@
             "percent": 100,
             "hz": 360,
             "enjoyment": 7
+        },
+        {
+             "user": "Chomp",
+            "link": "https://youtu.be/6LCQAWhbEww",
+            "percent": 100,
+            "hz": 999,
         }
     ]
 }

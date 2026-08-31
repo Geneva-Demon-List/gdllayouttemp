@@ -27,7 +27,7 @@
 	},
 	{
 		"name": "Free Demon Pack I",
-		"difficulty": 1,
+		"difficulty": 0,
 		"levels": [
 			"thenightmare",
 			"lightningroad",
@@ -38,7 +38,7 @@
 	},
 	{
 		"name": "Basically a Rebeat",
-		"difficulty": 2,
+		"difficulty": 1,
 		"levels": [
 			"invisclubstep",
 			"livingopen"
@@ -46,7 +46,7 @@
 	},
 	{
 		"name": "Challenge List Survivors",
-		"difficulty": 2,
+		"difficulty": 1,
 		"levels": [
 			"gdlhouse",
 			"inspamity2"

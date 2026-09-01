@@ -29,7 +29,7 @@ export default {
                 </p>
                 <div class="type-title-sm">Author</div>
                 <p class="type-body">
-                    <a class="director link" :href="'https://glorpulon.pages.dev/#/leaderboard/user/' + creators[0].toLowerCase().replaceAll(' ', '_')">{{ author }}</a>
+                    <a class="director link" :href="'https://glorpulon.pages.dev/#/leaderboard/user/' + author.toLowerCase().replaceAll(' ', '_')">{{ author }}</a>
                 </p>
                 <div class="type-title-sm">Verifier</div>
                 <p class="type-body">
@@ -43,6 +43,10 @@ export default {
                         <a class="director link" :href="'https://glorpulon.pages.dev/#/leaderboard/user/' + creator.toLowerCase().replaceAll(' ', '_')">{{ creator }}</a>
                         <span v-if="index < creators.length - 1">, </span>
                     </template>
+                </p>
+                <div class="type-title-sm">Author</div>
+                <p class="type-body">
+                    <a class="director link" :href="'https://glorpulon.pages.dev/#/leaderboard/user/' + author.toLowerCase().replaceAll(' ', '_')">{{ author }}</a>
                 </p>
                 <div class="type-title-sm">Verifier</div>
                 <p class="type-body">

@@ -8,6 +8,10 @@ export default {
             type: String,
             required: true,
         },
+        author: {
+            type: String,
+            required: true,
+        },
         enjoyment: {
             type: Number,
             required: false,

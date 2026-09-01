@@ -26,6 +26,16 @@ export default {
                     <a class="director link" :href="'https://glorpulon.pages.dev/#/leaderboard/user/' + creators[0].toLowerCase().replaceAll(' ', '_')">{{ creators[0] }}<span v-if="enjoyment !== undefined"> ({{ enjoyment }}/10)</span></a>
                 </p>
             </template>
+            <template v-else-if="creators.length === 0">
+                <div class="type-title-sm">Author</div>
+                <p class="type-body">
+                    <a class="director link" :href="'https://glorpulon.pages.dev/#/leaderboard/user/' + author.toLowerCase().replaceAll(' ', '_')">{{ author }}</a>
+                </p>
+                <div class="type-title-sm">Verifier</div>
+                <p class="type-body">
+                    <a class="director link" :href="'https://glorpulon.pages.dev/#/leaderboard/user/' + verifier.toLowerCase().replaceAll(' ', '_')">{{ verifier }}<span v-if="enjoyment !== undefined"> ({{ enjoyment }}/10)</span></a>
+                </p>
+            </template>
             <template v-else-if="creators.length === 1">
                 <div class="type-title-sm">Creator</div>
                 <p class="type-body">

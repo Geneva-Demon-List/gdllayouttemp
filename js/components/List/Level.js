@@ -37,7 +37,7 @@ export default {
                 <Copied v-if="copied" @click="copyURL('https://glorpulon.pages.dev/#/level/' + level.path); copied = true"></Copied>
             </div>
             <Packs :packs="level.packs" v-show="!fromPacksPage" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels" />
-            <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment"></LevelAuthors>
+            <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment" :author="level.author"></LevelAuthors>
             <Verification :verification="level.verification" :showcase="level.showcase || null" />
             <LevelMeta :level="level" :list="list" />
             <Records :records="level.records" :percentToQualify="(level.percentToQualify) ? level.percentToQualify : 100" :rank="level.rank"/>

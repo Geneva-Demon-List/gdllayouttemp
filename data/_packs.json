@@ -38,7 +38,7 @@
 	},
 	{
 		"name": "Basically a Rebeat",
-		"difficulty": 2,
+		"difficulty": 1,
 		"levels": [
 			"invisclubstep",
 			"livingopen"
@@ -54,7 +54,7 @@
 	},
 	{
 		"name": "Nine Circles Pack II",
-		"difficulty": 2,
+		"difficulty": 1,
 		"levels": [
 			"retrocircles",
 			"problematic",
@@ -64,7 +64,7 @@
 	},
 	{
 		"name": "Old Demons Pack I",
-		"difficulty": 1,
+		"difficulty": 0,
 		"levels": [
 			"thenightmare",
 			"lightningroad",

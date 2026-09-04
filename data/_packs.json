@@ -19,7 +19,7 @@
 	},
 	{
 		"name": "Top 1 Pack I",
-		"difficulty": 5,
+		"difficulty": 6,
 		"levels": [
 			"cataclysm",
 			"bloodbath"
@@ -38,7 +38,7 @@
 	},
 	{
 		"name": "Basically a Rebeat",
-		"difficulty": 1,
+		"difficulty": 2,
 		"levels": [
 			"invisclubstep",
 			"livingopen"
@@ -54,7 +54,7 @@
 	},
 	{
 		"name": "Nine Circles Pack II",
-		"difficulty": 1,
+		"difficulty": 2,
 		"levels": [
 			"retrocircles",
 			"problematic",

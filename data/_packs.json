@@ -72,5 +72,14 @@
 			"crescendo",
 			"demonpark"
 		]
+	},
+	{
+		"name": "Shitty Pack I",
+		"difficulty": 4,
+		"levels": [
+			"shittybloodbath",
+			"shittyuskc",
+			"shittydefeated"
+		]
 	}
 ]

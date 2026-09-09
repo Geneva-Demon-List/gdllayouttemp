@@ -67,7 +67,7 @@ export function score(rank, difficulty, percent, minPercent, list) {
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     */
     // New formula
-    score = (1000 / ((rank + 7.1) / 8.1));
+    score = (1000 / ((rank + 8.1) / 9.1));
 
     if (percent < 100) {
         score = (((round(score) / 4) * ((percent - minPercent) / (99 - minPercent) * 1 + 1))*minPercent)/minPercent

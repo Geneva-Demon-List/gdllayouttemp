@@ -28,5 +28,9 @@ export default {
                 If you are unsure which Geode mod menu to use, we recommend Eclipse.
             </p>
         </div>
+        <h3>Level Guidelines</h3>
+        <div class="right-text">
+            <a href="https://docs.google.com/document/d/1iaVYVbK_f6ckw9gKJGfJf6Ku9sJEPD18gv1Q1SATswU/edit?usp=sharing">Level Guidelines Here...<a>
+        </div>
     `
 }

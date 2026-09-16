@@ -11,7 +11,7 @@ import { fetchTierLength, fetchTierMinimum } from "./content.js";
 // to non programmers. Notes are denoted using "//", as seen here.
 // ------------------------------------------------------------------------------------------
 
-export const scale = 0; // Amount of decimals the site will globally round to and display.
+export const scale = 1; // Amount of decimals the site will globally round to and display.
 
 // ------------------------------------------------------------------------------------------
 // Information about imported functions:
@@ -59,35 +59,39 @@ export function score(rank, difficulty, percent, minPercent, list) {
     //Imported from the old repo
     if (rank > 150 && percent < 100) {
         return 0;
+    }  
+    if (percent < minPercent) {
+        return 0;
     }
 
-    // Old formula
-    /*
-    let score = (100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50) *
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-    */
-    // New formula
-    score = (1000 / ((rank + 8.1) / 9.1));
+   // Alright boys we are doing the scoring YESSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+if (rank <= 10) {
+  score = 1000 - (rank-1) * 50
+}
+else if (rank <= 20) {
+  score = 500 - (rank-11) * 35
+}
+else if (rank <= 40) {
+  score = 150 - (rank-21) * 5
+}
+else if (rank <= 75) {
+  score = 50 - (rank-41) * 1
+}
+else if (rank <= 150) {
+  score = 15 - (rank-76) * 0.12
+}
+else {
+  score = 6 - (rank-151) * 0.015
+}
 
     if (percent < 100) {
         score = (((round(score) / 4) * ((percent - minPercent) / (99 - minPercent) * 1 + 1))*minPercent)/minPercent
     }
     
-    score = Math.max(0, score);
-   
-    if (rank > 150) {
-        score = score * 0.2
-    } else if (rank > 75) {
-        score = score * 0.3
-    } else if (rank > 40) {
-        score = score * 0.6
-    }
+    score = Math.max(0.1, score);
     
-    if (percent < minPercent) {
-        return 0;
-    }
-    
-    return Math.max(round(score), 0);
+    return Math.max(round(score), 0.1);
 }
 
 // ------------------------

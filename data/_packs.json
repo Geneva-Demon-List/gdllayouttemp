@@ -81,5 +81,14 @@
 			"shittyuskc",
 			"shittydefeated"
 		]
-	}
+	},
+	{
+		"name": "Top 2 Pack I",
+		"difficulty": 6,
+		"levels": [
+			"windyland",
+			"sweaterweather",
+			"hiddeninthesand"
+		]
+	},
 ]

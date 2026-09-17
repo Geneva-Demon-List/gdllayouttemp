@@ -79,10 +79,10 @@ else if (rank <= 75) {
   score = 50 - (rank-41) * 1
 }
 else if (rank <= 150) {
-  score = 15 - (rank-76) * 0.12
+  score = 15 - (rank-76) * 0.1
 }
 else {
-  score = 6 - (rank-151) * 0.015
+  score = 7.5 - (rank-151) * 0.02
 }
 
     if (percent < 100) {

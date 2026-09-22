@@ -9,5 +9,11 @@
     "difficulty": "Hard Demon",
     "tentative": "Yes",
     "records": [
+        {
+            "user": "wRocket",
+            "link": "https://youtu.be/UEl1Mg-VNbc",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

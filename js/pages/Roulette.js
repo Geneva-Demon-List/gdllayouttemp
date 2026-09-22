@@ -17,8 +17,12 @@ export default {
                 </p>
                 <form class="options">
                     <div class="check">
+                        <input type="checkbox" id="top10" value="Top 10" v-model="useTop10">
+                        <label for="upper">The Top 10</label>
+                    </div>
+                    <div class="check">
                         <input type="checkbox" id="upper" value="Upper Main List" v-model="useUpperList">
-                        <label for="upper">Upper Main List ( Top 40 )</label>
+                        <label for="upper">Upper Main List ( Top 11-40 )</label>
                     </div>
                     <div class="check">
                         <input type="checkbox" id="main" value="Main List" v-model="useMainList">
@@ -156,6 +160,7 @@ export default {
         progression: [],
         toasts: [],
         fileInput: undefined,
+        useTop10: true,
         useUpperList: true,
         useMainList: true,
         useExtendedList: true,
@@ -176,7 +181,7 @@ export default {
                 return;
             }
 
-            if (!this.useUpperList && !this.useMainList && !this.useExtendedList && !this.useUnboundedList) {
+            if (!this.useTop10 && !this.useUpperList && !this.useMainList && !this.useExtendedList && !this.useUnboundedList) {
                 return;
             }
 
@@ -204,8 +209,11 @@ export default {
             }));
 
             const list = [];
+            if (this.useTop10) {
+                list.push(...fullListMapped.slice(0, 10));
+            }
             if (this.useUpperList) {
-                list.push(...fullListMapped.slice(0, 40));
+                list.push(...fullListMapped.slice(10, 40));
             }
             if (this.useMainList) {
                 list.push(...fullListMapped.slice(40, 75));

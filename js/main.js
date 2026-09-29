@@ -224,4 +224,4 @@ const router = VueRouter.createRouter({history: VueRouter.createWebHashHistory()
 
 
 app.use(router);
-app.mount("#app");
+app:mount("#app");

@@ -8,5 +8,11 @@
     "percentToQualify": "42",
     "difficulty": "Insane Demon",
     "records": [
+        {
+            "user": "Pandaboi2512",
+            "link": "https://www.youtube.com/watch?v=PMVz2IniW60",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

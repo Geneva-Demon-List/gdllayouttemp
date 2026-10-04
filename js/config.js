@@ -70,10 +70,10 @@ if (rank <= 10) {
   score = 1000 - (rank-1) * 50
 }
 else if (rank <= 20) {
-  score = 500 - (rank-11) * 35
+  score = 500 - (rank-11) * 25
 }
 else if (rank <= 40) {
-  score = 150 - (rank-21) * 5
+  score = 250 - (rank-21) * 10
 }
 else if (rank <= 75) {
   score = 50 - (rank-41) * 1

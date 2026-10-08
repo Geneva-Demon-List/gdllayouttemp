@@ -9,6 +9,15 @@
 		]
 	},
 	{
+		"name": "True Beginner Extreme Demon Pack",
+		"difficulty": 6,
+		"levels": [
+			"cataclysm",
+			"acu",
+			"sweaterweather"
+		]
+	},
+	{
 		"name": "True Beginner Insane Demon Pack",
 		"difficulty": 4,
 		"levels": [
@@ -18,12 +27,31 @@
 		]
 	},
 	{
-		"name": "True Beginner Extreme Demon Pack",
-		"difficulty": 6,
+		"name": "True Beginner Hard Demon Pack",
+		"difficulty": 3,
 		"levels": [
-			"cataclysm",
-			"acu",
-			"sweaterweather"
+			"futurefunk",
+			"ninecircles",
+			"jawbreaker"
+		]
+	},
+	{
+		"name": "True Beginner Medium Demon Pack",
+		"difficulty": 2,
+		"levels": [
+			"b",
+			"technoreactor",
+			"sakupenegg"
+		]
+	},
+	{
+		"name": "True Beginner Easy Demon Pack",
+		"difficulty": 0,
+		"levels": [
+			"thenightmare",
+			"shiver",
+			"speedracer",
+			"clubstep"
 		]
 	},
 	{

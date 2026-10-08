@@ -98,7 +98,18 @@
 			"speedracer",
 			"clubstep",
 			"decode",
-			"theoryofskrillex"
+			"deathmoon"
+		]
+	},
+	{
+		"name": "Intermediate Memory Lane",
+		"difficulty": 3,
+		"levels": [
+			"theoryofskrillex",
+			"ninecircles",
+			"foresttemple",
+			"verity",
+			"clubstepv2"
 		]
 	},
 	{
@@ -106,10 +117,10 @@
 		"difficulty": 5,
 		"levels": [
 			"windyland",
-  "icdx",
-  "8o",
-  "acropolis",
-  "cataclysm"
+ 			"icdx",
+  			"8o",
+  			"acropolis",
+  			"cataclysm"
 		]
 	},
 	{

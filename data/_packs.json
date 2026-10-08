@@ -9,6 +9,24 @@
 		]
 	},
 	{
+		"name": "True Beginner Insane Demon Pack",
+		"difficulty": 4,
+		"levels": [
+			"windyland",
+			"poltergeist",
+			"magmabound"
+		]
+	},
+	{
+		"name": "True Beginner Extreme Demon Pack",
+		"difficulty": 6,
+		"levels": [
+			"cataclysm",
+			"acu",
+			"sweaterweather"
+		]
+	},
+	{
 		"name": "The Nine Circles Trilogy",
 		"difficulty": 3,
 		"levels": [
@@ -54,13 +72,22 @@
 		]
 	},
 	{
-		"name": "Nine Circles Pack I",
+		"name": "Beginner Nine Circles Pack",
 		"difficulty": 1,
 		"levels": [
 			"retrocircles",
 			"problematic",
 			"butterflyeffect",
 			"zxcircles"
+		]
+	},
+	{
+		"name": "Expert Nine Circles Pack",
+		"difficulty": 4,
+		"levels": [
+			"poltergeist",
+			"thesecretbox",
+			"crimsonclutter"
 		]
 	},
 	{
@@ -91,24 +118,6 @@
 			"sweaterweather",
 			"hiddeninthesand",
 			"rocketopolis"
-		]
-	},
-	{
-		"name": "True Beginner Insane Demon Pack",
-		"difficulty": 4,
-		"levels": [
-			"windyland",
-			"poltergeist",
-			"magmabound"
-		]
-	},
-	{
-		"name": "True Beginner Extreme Demon Pack",
-		"difficulty": 6,
-		"levels": [
-			"cataclysm",
-			"acu",
-			"sweaterweather"
 		]
 	}
 ]

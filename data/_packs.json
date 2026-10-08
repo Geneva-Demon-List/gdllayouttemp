@@ -102,6 +102,17 @@
 		]
 	},
 	{
+		"name": "Expert Memory Lane",
+		"difficulty": 6,
+		"levels": [
+			"windylandscape",
+  "icdx",
+  "8o",
+  "acropolis",
+  "cataclysm"
+		]
+	},
+	{
 		"name": "Expert Shitty Pack",
 		"difficulty": 5,
 		"levels": [

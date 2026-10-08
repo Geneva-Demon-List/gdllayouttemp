@@ -8,5 +8,11 @@
     "percentToQualify": "65",
     "difficulty": "Medium Demon",
     "records": [
+        {
+            "user": "binarii",
+            "link": "https://youtu.be/PonX-wPxbyk",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }

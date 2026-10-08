@@ -92,7 +92,7 @@
 	},
 	{
 		"name": "Beginner Memory Lane",
-		"difficulty": 0,
+		"difficulty": 1,
 		"levels": [
 			"demonpark",
 			"speedracer",
@@ -103,7 +103,7 @@
 	},
 	{
 		"name": "Shitty Pack I",
-		"difficulty": 4,
+		"difficulty": 5,
 		"levels": [
 			"shittydefeated",
 			"shittyuskc",

@@ -65,7 +65,7 @@
 	},
 	{
 		"name": "Challenge List Graveyard",
-		"difficulty": 1,
+		"difficulty": 3,
 		"levels": [
 			"gdlhouse",
 			"inspamity2"

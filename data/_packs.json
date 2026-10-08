@@ -91,14 +91,14 @@
 		]
 	},
 	{
-		"name": "Old Demons Pack I",
+		"name": "Beginner Memory Lane",
 		"difficulty": 0,
 		"levels": [
-			"thenightmare",
-			"lightningroad",
-			"bpnight",
-			"crescendo",
-			"demonpark"
+			"demonpark",
+			"speedracer",
+			"clubstep",
+			"decode",
+			"theoryofskrillex"
 		]
 	},
 	{
@@ -118,6 +118,17 @@
 			"sweaterweather",
 			"hiddeninthesand",
 			"rocketopolis"
+		]
+	},
+ {
+		"name": "Pointercrate 2017",
+		"difficulty": 6,
+		"levels": [
+			"bloodbath",
+  "cataclysm",
+  "icdx",
+  "crimsonclutter",
+  "thesecretbox"
 		]
 	}
 ]

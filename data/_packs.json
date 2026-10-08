@@ -9,7 +9,7 @@
 		]
 	},
 	{
-		"name": "Nine Circles Pack I",
+		"name": "The Nine Circles Trilogy",
 		"difficulty": 3,
 		"levels": [
 			"ninecircles",
@@ -54,7 +54,7 @@
 		]
 	},
 	{
-		"name": "Nine Circles Pack II",
+		"name": "Nine Circles Pack I",
 		"difficulty": 1,
 		"levels": [
 			"retrocircles",
@@ -91,6 +91,24 @@
 			"sweaterweather",
 			"hiddeninthesand",
 			"rocketopolis"
+		]
+	},
+	{
+		"name": "True Beginner Insane Demon Pack",
+		"difficulty": 4,
+		"levels": [
+			"windyland",
+			"poltergeist",
+			"magmabound"
+		]
+	},
+	{
+		"name": "True Beginner Extreme Demon Pack",
+		"difficulty": 6,
+		"levels": [
+			"cataclysm",
+			"acu",
+			"sweaterweather"
 		]
 	}
 ]

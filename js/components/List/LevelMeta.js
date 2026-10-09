@@ -23,6 +23,10 @@ export default {
                 <div class="type-title-sm">{{level.percentToQualify}}% Score</div>
                 <p>{{ score(level.rank, level.difficulty, level.percentToQualify, level.percentToQualify, list) }}</p>
             </li>
+            <li v-if="level.percentToQualify < 100 && level.rank <= 150">
+                <div class="type-title-sm">99% Score</div>
+                <p>{{ score(level.rank, level.difficulty, 99, level.percentToQualify, list) }}</p>
+            </li>
             <li>
                 <div class="type-title-sm">ID</div>
                 <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>

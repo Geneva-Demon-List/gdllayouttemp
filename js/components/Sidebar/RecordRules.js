@@ -2,31 +2,7 @@ export default {
     template: `
         <h3>Record Submission Requirements</h3>
         <div class="right-text">
-            <p>
-                You must have achieved the record without using hacks (including hacks that change the physics of the game, ie. physics bypass via MegaHack. Note that Click Between Frames is allowed but its Physics Bypass setting is banned.).
-            </p>
-            <p>
-                You must have achieved the record on the level that is listed on the site or on an approved bugfixed copy - please check the level ID before you submit a record!
-            </p>
-            <p>
-                Records for Hard Demon+ levels must have audible clicks for the entire completion attempt. This does not include mods that add artificial click sounds.
-            </p>
-            <p>
-                Complete raw footage is required alongside your record for any levels at Sonic Wave difficulty or above.
-            </p>
-            <p>
-                The recording must have a previous attempt and death animation shown before the completion, unless the completion is on the first attempt.
-            </p>
-            <p>
-                The recording must show the player hit the end-wall as well as present your end stats, or the completion will be invalidated.
-            </p>
-            <p>
-                Do not use secret routes, skips, or bug routes!
-            </p>
-            <p>
-                Cheat Indicator is required for all completions via MegaHack, Geode, or iCreate Pro. If you do not have Cheat Indicator on, your record will likely be invalidated (this is not 100% required for mobile as of yet due to mobile limitations).
-                If you are unsure which Geode mod menu to use, we recommend Eclipse.
-            </p>
+            <a href="https://docs.google.com/document/d/1uXOUBt_1bIU_-S0QH86kSwlAeNMZytIWphs-RBai234/edit?usp=sharing">Submission Guidelines Here...<a>
         </div>
         <h3>Level Guidelines</h3>
         <div class="right-text">

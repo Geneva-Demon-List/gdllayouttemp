@@ -86,7 +86,7 @@ else {
 }
 
     if (percent < 100) {
-        score = (((round(score) / 4) * ((percent - minPercent) / (99 - minPercent) * 1 + 1))*minPercent)/minPercent
+        score = (((round(score) / 4) * ((percent - minPercent) / (99 - minPercent) * 2 + 1))*minPercent)/minPercent
     }
     
     score = Math.max(0.1, score);

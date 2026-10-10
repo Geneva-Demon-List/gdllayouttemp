@@ -8,5 +8,11 @@
     "percentToQualify": "65",
     "difficulty": "Extreme Demon",
     "records": [
+        {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/gUEcoVsMgsY",
+            "percent": 73,
+            "enjoyment": 8
+        }
     ]
 }

@@ -19,6 +19,13 @@
             "link": "https://www.youtube.com/watch?v=xtnQt9-mw_w",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Kyro",
+            "link": "https://youtu.be/En9KoCVDWpA?si=POSu3vdhaazLOzry",
+            "percent": 100,
+            "hz": 240,
+            "enjoyment": 9
         }
     ]
 }

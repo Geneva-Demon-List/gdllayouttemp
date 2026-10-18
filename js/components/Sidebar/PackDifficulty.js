@@ -14,11 +14,19 @@ export default {
             <!-- 4 -->
             <p>Insane: Mostly Easy Etxreme Demons ( GDDL Tier 21-23 Difficulty )</p>
             <!-- 5 -->
-            <p>Mythical: Mostly Mid-Tier Extreme Demons ( GDDL Tier 24-26 Difficulty )</p>
+            <p>Extreme: Mostly GDDL Tier 24-26 Difficulty</p>
             <!-- 6 -->
-            <p>Extreme: Mostly High-Tier Extreme Demons ( GDDL Tier 27-29 Difficulty )</p>
+            <p>Supreme: Mostly GDDL Tier 27-29 Difficulty</p>
             <!-- 7 -->
-            <p>Legendary: Mostly Super Extreme Demons ( GDDL Tier 30+ Difficulty )</p>
+            <p>Legendary: Mostly GDDL Tier 30-32 Difficulty</p>
+            <!-- 8 -->
+            <p>Mythical: Mostly GDDL Tier 33-34 Difficulty</p>
+            <!-- 9 -->
+            <p>Unreal: Mostly GDDL Tier 35-36 Difficulty</p>
+            <!-- 10 -->
+            <p>Silent: Mostly GDDL Tier 37-38 Difficulty</p>
+            <!-- 11 -->
+            <p>Impossible: Mostly GDDL Tier 39+ Difficulty</p>
         </div>
     `
 }

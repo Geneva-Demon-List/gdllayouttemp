@@ -1,16 +1,7 @@
 [
 	{
-		"name": "The RobTop Trilogy",
-		"difficulty": 1,
-		"levels": [
-			"clubstep",
-			"toe2",
-			"deadlocked"
-		]
-	},
-	{
 		"name": "True Beginner Extreme Demon Pack",
-		"difficulty": 6,
+		"difficulty": 4,
 		"levels": [
 			"cataclysm",
 			"acu",
@@ -19,7 +10,7 @@
 	},
 	{
 		"name": "True Beginner Insane Demon Pack",
-		"difficulty": 4,
+		"difficulty": 2,
 		"levels": [
 			"windyland",
 			"poltergeist",
@@ -28,35 +19,16 @@
 	},
 	{
 		"name": "True Beginner Hard Demon Pack",
-		"difficulty": 3,
+		"difficulty": 0,
 		"levels": [
 			"futurefunk",
 			"ninecircles",
 			"jawbreaker"
 		]
-	},
-	{
-		"name": "True Beginner Medium Demon Pack",
-		"difficulty": 2,
-		"levels": [
-			"b",
-			"technoreactor",
-			"sakupenegg"
-		]
-	},
-	{
-		"name": "True Beginner Easy Demon Pack",
-		"difficulty": 0,
-		"levels": [
-			"thenightmare",
-			"shiver",
-			"speedracer",
-			"clubstep"
-		]
-	},
+	}
 	{
 		"name": "The Nine Circles Trilogy",
-		"difficulty": 3,
+		"difficulty": 1,
 		"levels": [
 			"ninecircles",
 			"jawbreaker",
@@ -65,53 +37,24 @@
 	},
 	{
 		"name": "Top 1 Pack I",
-		"difficulty": 6,
+		"difficulty": 5,
 		"levels": [
 			"cataclysm",
 			"bloodbath",
             "gravity"
 		]
-	},
-	{
-		"name": "Free Demon Pack",
-		"difficulty": 0,
-		"levels": [
-			"thenightmare",
-			"lightningroad",
-			"plat_adv",
-			"phjork",
-			"shiver"
-		]
-	},
-	{
-		"name": "Basically a Rebeat",
-		"difficulty": 1,
-		"levels": [
-			"invisclubstep",
-			"livingopen"
-		]
-	},
+	}
 	{
 		"name": "Challenge List Graveyard",
-		"difficulty": 3,
+		"difficulty": 0,
 		"levels": [
 			"gdlhouse",
 			"inspamity2"
 		]
-	},
+	}
 	{
-		"name": "Beginner Nine Circles Pack",
-		"difficulty": 1,
-		"levels": [
-			"retrocircles",
-			"problematic",
-			"butterflyeffect",
-			"zxcircles"
-		]
-	},
-	{
-		"name": "Expert Nine Circles Pack",
-		"difficulty": 4,
+		"name": "Intermediate Nine Circles Pack",
+		"difficulty": 3,
 		"levels": [
 			"poltergeist",
 			"thesecretbox",
@@ -119,30 +62,8 @@
 		]
 	},
 	{
-		"name": "Beginner Memory Lane",
-		"difficulty": 1,
-		"levels": [
-			"demonpark",
-			"speedracer",
-			"clubstep",
-			"decode",
-			"deathmoon"
-		]
-	},
-	{
 		"name": "Intermediate Memory Lane",
 		"difficulty": 3,
-		"levels": [
-			"theoryofskrillex",
-			"ninecircles",
-			"foresttemple",
-			"verity",
-			"forsakenneon"
-		]
-	},
-	{
-		"name": "Expert Memory Lane",
-		"difficulty": 5,
 		"levels": [
 			"windyland",
  			"icdx",
@@ -152,8 +73,8 @@
 		]
 	},
 	{
-		"name": "Expert Shitty Pack",
-		"difficulty": 5,
+		"name": "Intermediate Shitty Pack",
+		"difficulty": 4,
 		"levels": [
 			"shittydefeated",
 			"shittyuskc",
@@ -162,7 +83,7 @@
 	},
 	{
 		"name": "Top 2 Pack I",
-		"difficulty": 6,
+		"difficulty": 4,
 		"levels": [
 			"windyland",
 			"sweaterweather",
@@ -170,15 +91,15 @@
 			"rocketopolis"
 		]
 	},
- {
+	{
 		"name": "Pointercrate 2017",
-		"difficulty": 6,
+		"difficulty": 5,
 		"levels": [
 			"bloodbath",
-  "cataclysm",
-  "icdx",
-  "crimsonclutter",
-  "thesecretbox"
+ 			"cataclysm",
+  			"icdx",
+  			"crimsonclutter",
+  			"thesecretbox"
 		]
 	}
 ]

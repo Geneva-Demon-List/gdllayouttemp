@@ -14,6 +14,13 @@
             "percent": 100,
             "hz": 240,
             "enjoyment": 6
-        }
+        },
+        {
+            "user": "timmytoughnut97",
+            "link": "https://www.youtube.com/watch?v=a9hg974sgsw",
+            "percent": 100,
+            "hz": 480,
+            "enjoyment": 10
+        },
     ]
 }

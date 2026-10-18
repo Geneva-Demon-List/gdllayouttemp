@@ -66,7 +66,7 @@ export default {
                     <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/packs/pack/' + selectedPack.name.toLowerCase().replaceAll(' ', '_')); copied = true"></Copy>
                     <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/packs/pack/' + selectedPack.name.toLowerCase().replaceAll(' ', '_')); copied = true"></Copied>
                 </div>
-                    <h2>Difficulty: {{ ["Easy", "Medium", "Hard", "Insane", "Extreme", "Supreme", "Legendary", "Mythical", "Unreal", "Catastrophic", "Silent", "Impossible"][selectedPack.difficulty] }}</h2>
+                    <h2>Difficulty: {{ ["Easy", "Medium", "Hard", "Insane", "Extreme", "Supreme", "Legendary", "Mythical", "Catastrophic", "Unreal", "Silent", "Impossible"][selectedPack.difficulty] }}</h2>
                     <div class="pack-score">
                         <h3>Points: {{ selectedPack.score }}</h3>
                     </div>

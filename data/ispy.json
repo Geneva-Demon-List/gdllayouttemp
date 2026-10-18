@@ -19,6 +19,13 @@
             "link": "https://youtu.be/eu-5WcUY6O4",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "timmytoughnut97",
+            "link": "https://www.youtube.com/watch?v=4CqBwCe5aUE",
+            "percent": 100,
+            "hz": 480,
+            "enjoyment": 10
         }
     ]
 }

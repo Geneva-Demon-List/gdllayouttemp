@@ -25,7 +25,7 @@
 			"ninecircles",
 			"jawbreaker"
 		]
-	}
+	},
 	{
 		"name": "The Nine Circles Trilogy",
 		"difficulty": 1,
@@ -43,7 +43,7 @@
 			"bloodbath",
             "gravity"
 		]
-	}
+	},
 	{
 		"name": "Challenge List Graveyard",
 		"difficulty": 0,
@@ -51,7 +51,7 @@
 			"gdlhouse",
 			"inspamity2"
 		]
-	}
+	},
 	{
 		"name": "Intermediate Nine Circles Pack",
 		"difficulty": 3,

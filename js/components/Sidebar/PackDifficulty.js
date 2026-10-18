@@ -20,9 +20,9 @@ export default {
             <!-- 7 -->
             <p>Mythical: Mostly GDDL Tier 30-32 Difficulty</p>
             <!-- 8 -->
-            <p>Unreal: Mostly GDDL Tier 33-34 Difficulty</p>
+            <p>Catastrophic: Mostly GDDL Tier 33-34 Difficulty</p>
             <!-- 9 -->
-            <p>Catastrophic: Mostly GDDL Tier 35-36 Difficulty</p>
+            <p>Unreal: Mostly GDDL Tier 35-36 Difficulty</p>
             <!-- 10 -->
             <p>Silent: Mostly GDDL Tier 37-38 Difficulty</p>
             <!-- 11 -->

@@ -3,14 +3,14 @@ export default {
         <h3>Difficulty Rankings</h3>
         <div class="right-text">
             <p>Packs do not give points, but their difficulty ranking is based off of what difficulty they mostly consist of, mostly biased by the hardest level in the pack.</p>
-            <p>Beginner: Mostly Very Easy Demons ( GDDL Tier 1-2 Difficulty )</p>
-            <p>Easy: Mostly Easy Demons ( GDDL Tier 3-5 Difficulty )</p>
-            <p>Medium: Mostly Medium Demons ( GDDL Tier 6-10 Difficulty )</p>
-            <p>Hard: Mostly Hard Demons ( GDDL Tier 11-15 Difficulty )</p>
-            <p>Insane: Mostly Low Insane Demons ( GDDL Tier 16-18 Difficulty )</p>
-            <p>Mythical: Mostly High Insane Demons ( GDDL Tier 19-21 Difficulty )</p>
-            <p>Extreme: Mostly Extreme Demons ( GDDL Tier 21-25 Difficulty )</p>
-            <p>Legendary: Mostly Hard Extreme Demons ( GDDL Tier 26+ Difficulty )</p>
+            <p>Beginner: Mostly Low-Tier Hard Demons ( GDDL Tier 9-12 Difficulty )</p>
+            <p>Easy: Mostly High-End Hard Demons ( GDDL Tier 13-15 Difficulty )</p>
+            <p>Medium: Mostly Low-Tier Insane Demons ( GDDL Tier 16-17 Difficulty )</p>
+            <p>Hard: Mostly High-Tier Insane or Beginner Extreme Demons ( GDDL Tier 18-20 Difficulty )</p>
+            <p>Insane: Mostly Easy Etxreme Demons ( GDDL Tier 21-23 Difficulty )</p>
+            <p>Mythical: Mostly Mid-Tier Extreme Demons ( GDDL Tier 24-26 Difficulty )</p>
+            <p>Extreme: Mostly High-Tier Extreme Demons ( GDDL Tier 27-29 Difficulty )</p>
+            <p>Legendary: Mostly Super Extreme Demons ( GDDL Tier 30+ Difficulty )</p>
         </div>
     `
 }

@@ -19,6 +19,13 @@
             "link": "https://www.youtube.com/watch?v=Pja1FTM7KVI",
             "percent": 100,
             "hz": "idk"
+        },
+       {
+            "user": "timmytoughnut97",
+            "link": "https://www.youtube.com/watch?v=oS-_-Z_2Cl0",
+            "percent": 100,
+            "hz": 480,
+            "enjoyment": 10
         }
     ]
 }

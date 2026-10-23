@@ -101,5 +101,14 @@
   			"crimsonclutter",
   			"thesecretbox"
 		]
+	},
+	{
+		"name": "The CraZy Trilogy",
+		"difficulty": 3,
+		"levels": [
+			"crazy",
+			"crazyii",
+			"crazyiii"
+		]
 	}
 ]

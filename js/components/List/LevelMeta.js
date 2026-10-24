@@ -29,7 +29,7 @@ export default {
             </li>
             <li>
                 <div class="type-title-sm">ID</div>
-                <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
+                <a href="https://gdbrowser.com/{{level.id}}">{{ level.id }}</a>
             </li>
             <li>
                 <div class="type-title-sm">Enjoyment</div>

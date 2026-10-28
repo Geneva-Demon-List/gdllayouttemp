@@ -8,5 +8,11 @@
     "percentToQualify": "65",
     "difficulty": "Unrated Insane Demon",
     "records": [
+        {
+            "user": "Chomp",
+            "link": "https://www.youtube.com/watch?v=d49mKt7L-XU",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
